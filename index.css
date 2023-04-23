@@ -16,10 +16,7 @@ body {
     margin: 2rem auto;
     width: 90%;
     color: white;
-}
-
-header {
-    
+    font-family: 'Inter', sans-serif;
 }
 
 img {
