@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem auto;
+    width: 90%;
+    color: white;
+}
+
+header {
+    
+}
+
+img {
+    width: 90px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.inputs {
+    background: #444059;
+    color: white;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    border: none;
+    padding: 16px;
+    border-radius: 6px;
+}
+
+#from-to-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px;
+    border-radius: 6px;
+    background: skyblue;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+#endorsements {
+    padding: 0px;
+    margin: 10px 0;
+}
+
+.endorsement-el {
+    background: white;
+    color: black;
+    padding: 2px 10px;
+    margin-bottom: .5rem;
+    text-align: left
+}
+
+.recipient-name,
+.sender-name {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.endorsement-text {
+    font-size: 14px;
+}
+
+.required {
+    border: 1px solid red;
+}
